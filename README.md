@@ -31,9 +31,16 @@ The **Healthy Snacks Website** is a web-based application created using HTML, CS
 
 ## Screenshots
 
-![Main Page](https://github.com/Hammad6966/Healthy-Snacks/tree/main/Screenshots/indexs.png)
-![Snack Showcase](https://github.com/Hammad6966/Healthy-Snacks/tree/main/Screenshots/Recipie.png)
-![Contact](https://github.com/Hammad6966/Healthy-Snacks/tree/main/Screenshots/Contact.png)
+<img src="https://github.com/Hammad6966/Healthy-Snacks/tree/main/Screenshots/indexs.png" alt="Main Page" width="400"/>
+<p align="center"><em> Main Page</em></p>
+
+<img src="https://github.com/Hammad6966/Healthy-Snacks/tree/main/Screenshots/Recipie.png" alt="Snack Showcase" width="400"/>
+<p align="center"><em> Snack Showcase</em></p>
+
+<img src="https://github.com/Hammad6966/Healthy-Snacks/tree/main/Screenshots/Contact.png" alt="Recipe Section" width="400"/>
+<p align="center"><em>Contact Page</em></p>
+
+
 
 
 
