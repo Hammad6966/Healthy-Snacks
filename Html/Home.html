@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link rel="stylesheet" href="../Css/Home.css" />
+    <script src="../Js/Recipi1.js"></script>
+    <script src="../Js/Recipi2.js"></script>
+    <script src="../Js/Recipi3.js"></script>
+
+    <style>
+      .Card {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+        border: 2px solid #e2b95b;
+      }
+      .CardImg {
+        width: 300px;
+        height: 200px;
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navBar">
+      <div><h2 style="color: #e2965b">Healthy Snack</h2></div>
+      <ul class="navItems">
+        <li><a class="navItem" href="./Home.html">Home</a></li>
+        <li><a class="navItem" href="./AboutUs.html">About Us</a></li>
+        <li><a class="navItem" href="./Contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <h1 style="text-align: center">
+      Welcome to <span style="color: #e2965b">Healthy Snacks</span>
+    </h1>
+    <div style="display: flex; justify-content: space-evenly">
+      <!-- first recipe card -->
+      <div class="Card">
+        <img class="CardImg" src="../Assets/SnackImg.png" alt="pudding-img" />
+        <h2>Cottage Cheese Snack Jar</h2>
+        <button
+          style="
+            background-color: #e2965b;
+            border-radius: 10px;
+            margin-bottom: 10px;
+          "
+          onclick="navigateToPage()"
+        >
+          See Full Recipe
+        </button>
+      </div>
+
+      <!-- second card -->
+      <div class="Card">
+        <img
+          class="CardImg"
+          src="../Assets/Cheddar Cheese.png"
+          alt="pudding-img"
+        />
+        <h2>Cheddar-Apple Cracker</h2>
+        <button
+          style="
+            background-color: #e2965b;
+            border-radius: 10px;
+            margin-bottom: 10px;
+          "
+          onclick="navigateToPage2()"
+        >
+          See Full Recipe
+        </button>
+      </div>
+
+      <!-- Third card -->
+      <div class="Card">
+        <img
+          class="CardImg"
+          src="../Assets/Banana Muffins.png"
+          alt="pudding-img"
+        />
+        <h2>Banana-Blueberry Muffins</h2>
+        <button
+          style="
+            background-color: #e2965b;
+            border-radius: 10px;
+            margin-bottom: 10px;
+          "
+          onclick="navigateToPage3()"
+        >
+          See Full Recipe
+        </button>
+      </div>
+      </div>
+    </div>
+  </body>
+</html>

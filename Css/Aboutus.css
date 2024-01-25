@@ -1,0 +1,40 @@
+.navBar {
+  background-color: #1c3e36;
+  display: flex;
+  justify-content: space-between;
+  padding: 6px 12px 6px 12px;
+  align-content: center;
+}
+.navItems {
+  text-decoration: none;
+  display: flex;
+  list-style: none;
+  color: #f2e2d8;
+  cursor: pointer;
+  align-items: center;
+}
+.navItem:hover {
+  font-size: large;
+}
+.navItem {
+  padding: 0px 12px 0px 12px;
+}
+a {
+  color: #e2b95b;
+  text-decoration: none;
+}
+a:hover {
+  color: white;
+}
+
+.about-us-div {
+  background: url(../Assets/Aboutus-bg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 30px;
+}

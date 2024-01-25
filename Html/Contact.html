@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="../Css/Contact.css" />
+  </head>
+  <body>
+    <nav class="navBar">
+      <div><h2 style="color: #e2965b">Healthy Snack</h2></div>
+      <ul class="navItems">
+        <li><a class="navItem" href="./Home.html">Home</a></li>
+        <li><a class="navItem" href="./AboutUs.html">About Us</a></li>
+        <li><a class="navItem" href="./Contact.html">Contact</a></li>
+      </ul>
+    </nav>
+
+    <main style="margin-top: 10px">
+      <div
+        style="
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          background-color: #e2965b;
+        "
+      >
+        <h1>Get In Touch With Us</h1>
+        <div class="addressAndContactDiv">
+          <!-- div for map  -->
+          <div
+            style="
+              display: flex;
+              flex-direction: column;
+              justify-content: center;
+              align-items: center;
+            "
+          >
+            <img
+              style="width: 50px; height: 50px"
+              src="../Assets/map-location.png"
+              alt=""
+            />
+            <h2>Address</h2>
+
+            <div>
+              <script>
+                // Declare a variable for Address
+                var address = {
+                  street: "11411, P.O. Box: 235",
+                  city: "Riyadh",
+                  state: "Middle East",
+                };
+                document.write("<p>" + "Street:" + address.street + "</p>");
+                document.write("<p>" + "City:" + address.city + "</p>");
+                document.write("<p>" + "State:" + address.state + "</p>");
+              </script>
+            </div>
+          </div>
+
+          <!-- Div for Phone -->
+          <div
+            style="
+              display: flex;
+              flex-direction: column;
+              justify-content: center;
+              align-items: center;
+            "
+          >
+            <img
+              style="width: 50px; height: 50px"
+              src="../Assets/Phone.png"
+              alt=""
+            />
+            <h2>Call Us</h2>
+
+            <div>
+              <script>
+                // Declare a variable for Phone Number
+                var number = {
+                  mobile: "+966 56 686 4284",
+                  landLine: "56 974 4761",
+                };
+                document.write("<p>" + "Mobile: " + number.mobile + "</p>");
+                document.write(
+                  "<p>" + "Land Line: " + number.landLine + "</p>"
+                );
+              </script>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div style="display: flex; align-items: center; flex-direction: column">
+        <h1>Want To Share A Recipe With Us ? Click Below</h1>
+        <button style="margin-bottom: 10px" id="formFillingButton">
+          Share Recipe
+        </button>
+        <div id="formDiv"></div>
+      </div>
+    </main>
+    <script src="../Js/Contact.js"></script>
+  </body>
+</html>

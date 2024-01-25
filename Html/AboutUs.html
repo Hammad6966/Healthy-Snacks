@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Us</title>
+    <link rel="stylesheet" href="../Css/Aboutus.css" />
+
+    <style>
+      .hidden {
+        display: none;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navBar">
+      <div><h2 style="color: #e2965b">Healthy Snack</h2></div>
+      <ul class="navItems">
+        <li><a class="navItem" href="./Home.html">Home</a></li>
+        <li><a class="navItem" href="./AboutUs.html">About Us</a></li>
+        <li><a class="navItem" href="./Contact.html">Contact</a></li>
+      </ul>
+    </nav>
+
+    <div class="about-us-div">
+      <h1 style="font-size: 50px; color: whitesmoke">About Us</h1>
+      <p style="font-size: 30px; color: whitesmoke">Welcome to our website!</p>
+    </div>
+
+    <!-- Interactive section -->
+    <div
+      style="
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      "
+    >
+      <h2 id="moreInfoHeader">More Info</h2>
+      <button id="toggleButton">Show More</button>
+      <ol id="moreInfo" class="hidden">
+        <li>
+          Wide Variety: Offer a diverse range of healthy snack options from
+          different cuisines or dietary preferences.
+        </li>
+        <li>
+          Nutrient-Rich Choices: Emphasize snacks that are rich in essential
+          nutrients, such as protein, fiber, vitamins, and minerals.
+        </li>
+        <li>
+          Natural Ingredients: Ensure snacks are made with natural, whole
+          ingredients, avoiding artificial additives and preservatives.
+        </li>
+        <li>
+          Allergy-Friendly Options: Provide snack alternatives catering to
+          various allergies or dietary restrictions, such as gluten-free,
+          nut-free, or dairy-free options.
+        </li>
+      </ol>
+    </div>
+    <script src="../Js/Aboutus.js"></script>
+  </body>
+</html>

@@ -1,0 +1,48 @@
+.navBar {
+  background-color: #1c3e36;
+  display: flex;
+  justify-content: space-between;
+  padding: 6px 12px 6px 12px;
+  align-content: center;
+}
+.navItems {
+  text-decoration: none;
+  display: flex;
+  list-style: none;
+  color: #f2e2d8;
+  cursor: pointer;
+  align-items: center;
+}
+.navItem:hover {
+  font-size: large;
+}
+.navItem {
+  padding: 0px 12px 0px 12px;
+}
+.recipeDiv {
+  display: flex;
+  justify-content: space-around;
+  background-color: #e2b95b;
+  border-radius: 5px;
+  margin-top: 12px;
+  align-content: center;
+  height: 450px;
+}
+
+a {
+  color: #e2b95b;
+  text-decoration: none;
+}
+a:hover {
+  color: white;
+}
+.ingredientsDiv {
+  background-color: #1c3e36;
+  padding: 12px;
+  margin: 6px;
+  border-radius: 10px;
+  color: white;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
